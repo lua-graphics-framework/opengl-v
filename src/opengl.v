@@ -1,5 +1,6 @@
 module main
+import versions
 
 fn main() {
-	println('Hello World!')
+	versions.gl_viewport(10, 10, 100, 100)
 }
